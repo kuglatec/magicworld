@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne"/>
+    <title>Links website</title>
+    <style>
+      body {
+        background-image: url(https://i.imgur.com/QMFD7sO.png); 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-size: cover; 
+        font-family: "Syne", sans-serif;
+      }
+
+      .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .image-container {
+        text-align: center;
+        width: 100%;
+      }
+
+      .links-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .link {
+        min-width: 50% !important;
+      }
+
+      @media (min-width: 1200px) {
+        .container {
+          max-width: 1140px;
+        }
+      }
+      @media (min-width: 992px) {
+        .container {
+          max-width: 960px;
+        }
+      }
+      @media (min-width: 768px) {
+        .container {
+          max-width: 720px;
+        }
+
+        .link {
+          width: 100%;
+        }
+      }
+      @media (min-width: 576px) {
+        .container {
+          max-width: 540px;
+        }
+      }
+
+      .w3-yellow,
+      .w3-hover-purple:hover,
+      .w3-text-black {
+        font-size: 300%;
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0);
+      }
+    </style>
+  </head>
+
+  <body class="w3-white">
+
+    <div class="container">
+      <!-- Image and name container. Change to your picture here. -->
+      <div class="image-container">
+        <img
+          src="https://iili.io/HvarXRt.png"
+          class="w3-margin"
+          alt="Person"
+          max-width="100%"
+          height="150px"
+          style="border-radius: 50%"
+        />
+
+        <div class="w3-text-black">
+          <p><strong>Magic World </strong></p>
+          <p><strong>Java 1.19 eu4871783.g-portal.game</strong></p>
+        </div>
+
+        <div class="links-container">
+          <a href="https://discord.gg/DE4DKm7dWw" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-black link" target="_blank">Discord</a>
+          <a href="https://fischonmy.jimdofree.com/" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-black link" target="_blank">Store</a>
+          <a href="https://www.youtube.com/@magicworld-hw6tx" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-black link" target="_blank">Youtube</a>
+          <a href="https://mcsrvstat.us/server/eu4871783.g-portal.game" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-black link" target="_blank">Server Status</a>        
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
